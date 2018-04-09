@@ -1,29 +1,21 @@
-var React=require("react");
-var {Link}=require('react-router');
+var React = require('react');
+var {Link} = require('react-router');
 
+var Examples = (props) => {
+  return (
+    <div>
+      <h1 className="text-center page-title">Examples</h1>
+      <p>Here are a few example locations to try out:</p>
+      <ol>
+        <li>
+          <Link to='/?location=Philadelphia'>Philadelphia, PA</Link>
+        </li>
+        <li>
+          <Link to='/?location=Rio'>Rio, Brazil</Link>
+        </li>
+      </ol>
+    </div>
+  )
+};
 
-var Examples = () => {
-
-      return (
-      <div>
-          <h1 className='text-center'>Examples </h1>
-          <p>Here are the few examples to start :</p>
-          <ul>
-            <li>
-              <Link to='/?location=Ranchi' >Ranchi, JH</Link>
-            </li>
-            <li>
-              <Link to='/?location=Aizawl' >Aizawl, MZ</Link>
-            </li>
-          </ul>
-
-      </div>
-      )
-
-    };
-
-
-
-
-
-module.exports=Examples;
+module.exports = Examples;

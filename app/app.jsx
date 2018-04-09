@@ -6,17 +6,13 @@ var Weather =require("Weather");
 var About =require("About");
 var Examples =require("Examples");
 
-<<<<<<< HEAD
-require ('style!css!foundation-sites/dist/foundation.min.css')
-$(document).foundation();
 
-=======
 require ('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
 require('style!css!sass!applicationStyles')
 
->>>>>>> till sass
+
 ReactDOM.render(
  <Router history={hashHistory}>
    <Route path="/" component ={Main}>
