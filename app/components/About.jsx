@@ -4,7 +4,7 @@ var React=require("react");
     return(
        <div>
          <h1 className="text-center page-title" >About </h1>
-         <h5 >Welcome !</h5> <br/>
+         <h5 className="text-center" >Welcome !</h5> <br/>
          <p>This website displays the Current Temperature [Celsius] using Open Weather and is deployed on
            <a href='https://www.heroku.com/'> Heroku</a> platform.</p>
          <p>The Technologies involved is <a href='https://reactjs.org/'>React</a>|
@@ -12,7 +12,7 @@ var React=require("react");
            <a href='https://webpack.js.org/'>Webpack</a> |
              <a href='https://nodejs.org'>NodeJs</a> |
                <a href='https://babeljs.io/'>Babel</a>.</p><br/>
-         <h3 >Links </h3>
+         <h3 className="text-center" >Links </h3>
          <ul>
 
            <li>
