@@ -20,7 +20,7 @@ var React=require("react");
 
            </li>
            <li>
-             <a href='https://github.com/naveeshaG/React-Weather'>Git Repository</a>
+             <a href='https://github.com/vihsal29/React-Weather'>Git Repository</a>
            </li>
          </ul>
        </div>
